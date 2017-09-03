@@ -26,12 +26,12 @@ public class AccountDemoAuthenticator extends AbstractAccountAuthenticator {
 
     @Override
     public Bundle addAccount(AccountAuthenticatorResponse accountAuthenticatorResponse, String s, String s1, String[] strings, Bundle bundle) throws NetworkErrorException {
-        Bundle myBundle = new Bundle();
+        /* Bundle myBundle = new Bundle();
         Intent intent = new Intent(mContext, LoginActivity.class);
         intent.putExtra(AccountManager.KEY_ACCOUNT_AUTHENTICATOR_RESPONSE, accountAuthenticatorResponse);
         myBundle.putParcelable(AccountManager.KEY_INTENT, intent);
-        return myBundle;
-        // return null;
+        return myBundle; */
+        return null;
     }
 
     @Override
